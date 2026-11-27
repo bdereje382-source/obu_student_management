@@ -1,4 +1,4 @@
-package com.obu.management;
+ package com.obu.management;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -25,7 +25,6 @@ public class Student {
     private String sex;
     private String religion;
 
-    // Getters fi Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
 
