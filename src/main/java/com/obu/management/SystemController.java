@@ -1,4 +1,4 @@
-package com.obu.management;
+ package com.obu.management;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -39,7 +39,6 @@ public class SystemController {
 
     @PostMapping("/login")
     public String loginAdmin(@RequestParam String password, Model model) {
-        // Admin Password (e.g., admin123)
         if ("admin123".equals(password)) {
             return "redirect:/admin";
         }
